@@ -1,0 +1,8 @@
+C++ debuger Notes
+
+Commands 
+b main - Set break point at the beginning of main.
+r -runs the program up to the breakpoint.
+s - steps through one line in you prgram.
+p <variable> - prints what is inside the variable.
+set <variable> -
