@@ -42,11 +42,12 @@ float Shape::getHeight(){
 
 class Square: protected Shape{
     public:
-        float getArea();
+        float getArea(){
+            return width * height;
+        }
 
 };
 
-Square::
 
 
 

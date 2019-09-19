@@ -1,9 +1,8 @@
 #include <iostream>
 #include "inheritance.hpp"
 
-
-
 int main(int argc, const char* argv[]){
+
     int vals[10];// = {12,45, 62, 89, 21, 34, 45};
 
     try{
@@ -26,6 +25,5 @@ int main(int argc, const char* argv[]){
         std::cout<<vals[i]<<std::endl;
         std::cout<<vals[i]/10;
     }
-
-    return 0;
+    return 0 ;
 }
